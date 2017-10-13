@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block body %} 
+<div class="container">
+	<br>
+	<br>
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+			<div>
+                You've logged in as {{name}}
+            </div>
+			<div>
+                Change user name? <a href="/logout">Sign out here</a>.
+            </div>
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}
