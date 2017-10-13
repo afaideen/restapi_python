@@ -11,7 +11,7 @@ api = Api(app)
 # app.config['MONGO_DBNAME'] = 'mongologinexample'
 # app.config['MONGO_URI'] = 'mongodb://pretty:printed@ds021731.mlab.com:21731/mongologinexample'
 app.config['MONGO_DBNAME'] = 'percubaan'
-app.config['MONGO_URI'] = 'mongodb://afaideen:pencouch@ds115085.mlab.com:15085/percubaan'
+app.config['MONGO_URI'] = 'mongodb://fai*:p*h@ds115085.mlab.com:15085/percubaan'
 
 mongo = PyMongo(app)
 
